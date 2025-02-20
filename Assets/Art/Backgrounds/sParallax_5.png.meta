@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 240a16fc68a33994e9977d8c24fd41db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7242995547633718387
+    second: sParallax_5_0
+  - first:
+      213: -8391032544397486757
+    second: sParallax_5_1
+  - first:
+      213: -3094683101844947360
+    second: sParallax_5_2
+  - first:
+      213: 8363645522140040482
+    second: sParallax_5_3
+  - first:
+      213: 6727785152116512908
+    second: sParallax_5_4
+  - first:
+      213: 6329645933882855242
+    second: sParallax_5_5
+  - first:
+      213: -3019928780045308050
+    second: sParallax_5_6
+  - first:
+      213: 8477617925178671052
+    second: sParallax_5_7
+  - first:
+      213: 5688297657150393703
+    second: sParallax_5_8
+  - first:
+      213: 600671595151526489
+    second: sParallax_5_9
+  - first:
+      213: 6203563765539764116
+    second: sParallax_5_10
+  - first:
+      213: 6010839622496632601
+    second: sParallax_5_11
+  - first:
+      213: -2445139759837539246
+    second: sParallax_5_12
+  - first:
+      213: 1500923758622840915
+    second: sParallax_5_13
+  - first:
+      213: 8011198650790748377
+    second: sParallax_5_14
+  - first:
+      213: 8345838880937350762
+    second: sParallax_5_15
+  - first:
+      213: 4080911479168835630
+    second: sParallax_5_16
+  - first:
+      213: -2267687610396244837
+    second: sParallax_5_17
+  - first:
+      213: -1295649883004289324
+    second: sParallax_5_18
+  - first:
+      213: -7016661520528412477
+    second: sParallax_5_19
+  - first:
+      213: 3010054681568284765
+    second: sParallax_5_20
+  - first:
+      213: -6306720701003276450
+    second: sParallax_5_21
+  - first:
+      213: 1095338182072767348
+    second: sParallax_5_22
+  - first:
+      213: -3844511170904785984
+    second: sParallax_5_23
+  - first:
+      213: 1516026800111921494
+    second: sParallax_5_24
+  - first:
+      213: -2964211440801790190
+    second: sParallax_5_25
+  - first:
+      213: -8150893827136310208
+    second: sParallax_5_26
+  - first:
+      213: -7959968363779887906
+    second: sParallax_5_27
+  - first:
+      213: -9023132170787231482
+    second: sParallax_5_28
+  - first:
+      213: -565179278527452682
+    second: sParallax_5_29
+  - first:
+      213: -1814140556949522673
+    second: sParallax_5_30
+  - first:
+      213: -4097662079713912502
+    second: sParallax_5_31
+  - first:
+      213: 5330904852424185185
+    second: sParallax_5_32
+  - first:
+      213: -3120861142039316141
+    second: sParallax_5_33
+  - first:
+      213: -6869633256075744707
+    second: sParallax_5_34
+  - first:
+      213: -8371526630468784577
+    second: sParallax_5_35
+  - first:
+      213: 8093143820487641608
+    second: sParallax_5_36
+  - first:
+      213: -245224629866789415
+    second: sParallax_5_37
+  - first:
+      213: 2121181363922590280
+    second: sParallax_5_38
+  - first:
+      213: 2603270882572249440
+    second: sParallax_5_39
+  - first:
+      213: 827990638609399030
+    second: sParallax_5_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sParallax_5_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 890
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b6e89ace5bb7b90800000000000000
+      internalID: -7242995547633718387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 912
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b551274cb501d8b80800000000000000
+      internalID: -8391032544397486757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_2
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 899
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eb02e7d1a7d05d0800000000000000
+      internalID: -3094683101844947360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 871
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d81763a43a11470800000000000000
+      internalID: 8363645522140040482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_4
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 890
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c885d0553f4ed5d50800000000000000
+      internalID: 6727785152116512908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_5
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 882
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f4513e07b67d750800000000000000
+      internalID: 6329645933882855242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 852
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fab6a56ce0716d0800000000000000
+      internalID: -3019928780045308050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_7
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 850
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf32cb269c86a570800000000000000
+      internalID: 8477617925178671052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 839
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dc22fc494e0fe40800000000000000
+      internalID: 5688297657150393703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_9
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 867
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a8caf12a3065800800000000000000
+      internalID: 600671595151526489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_10
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 853
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4977b7a706c771650800000000000000
+      internalID: 6203563765539764116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_11
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 850
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f31c43acaca6350800000000000000
+      internalID: 6010839622496632601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_12
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 829
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25413b4e75e111ed0800000000000000
+      internalID: -2445139759837539246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_13
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 821
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35898abc43a54d410800000000000000
+      internalID: 1500923758622840915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_14
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 728
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0a87d4abe7d2f60800000000000000
+      internalID: 8011198650790748377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 706
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a661aea7e3062d370800000000000000
+      internalID: 8345838880937350762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 525
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e202ca36e5f42a830800000000000000
+      internalID: 4080911479168835630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_17
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9407c0122e8780e0800000000000000
+      internalID: -2267687610396244837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 482
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deb04acb4de40ee0800000000000000
+      internalID: -1295649883004289324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 503
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c070cfd58fcf9e90800000000000000
+      internalID: -7016661520528412477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 490
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d501161f8ccd5c920800000000000000
+      internalID: 3010054681568284765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 464
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fd817dfe60a78a0800000000000000
+      internalID: -6306720701003276450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4739e53f54c633f00800000000000000
+      internalID: 1095338182072767348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 433
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf23b857d85aac0800000000000000
+      internalID: -3844511170904785984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 435
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659a4aaa7520a0510800000000000000
+      internalID: 1516026800111921494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_25
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 421
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2174cdf46610dd6d0800000000000000
+      internalID: -2964211440801790190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044bd9fdf3532ee80800000000000000
+      internalID: -8150893827136310208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_27
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 353
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc6d8562f2888190800000000000000
+      internalID: -7959968363779887906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_28
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 338
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609e3d6e81567c280800000000000000
+      internalID: -9023132170787231482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 319
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9a5fcc0741828f0800000000000000
+      internalID: -565179278527452682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_30
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 284
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07f46276c0e2d6e0800000000000000
+      internalID: -1814140556949522673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_31
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 230
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4950118c0e2227c0800000000000000
+      internalID: -4097662079713912502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_32
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 188
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165562c08bd2bf940800000000000000
+      internalID: 5330904852424185185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_33
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 200
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3593d6b835970b4d0800000000000000
+      internalID: -3120861142039316141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_34
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 175
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a256253f82aa0a0800000000000000
+      internalID: -6869633256075744707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 174
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e6f2342ec52db80800000000000000
+      internalID: -8371526630468784577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_36
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 157
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a4058ec6f905070800000000000000
+      internalID: 8093143820487641608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_37
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 131
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d50d969f79c89cf0800000000000000
+      internalID: -245224629866789415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 107
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ad8c44633ff6d10800000000000000
+      internalID: 2121181363922590280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 77
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06926d1331da02420800000000000000
+      internalID: 2603270882572249440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sParallax_5_40
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc79a3591d9d7b00800000000000000
+      internalID: 827990638609399030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sParallax_5_0: -7242995547633718387
+      sParallax_5_1: -8391032544397486757
+      sParallax_5_10: 6203563765539764116
+      sParallax_5_11: 6010839622496632601
+      sParallax_5_12: -2445139759837539246
+      sParallax_5_13: 1500923758622840915
+      sParallax_5_14: 8011198650790748377
+      sParallax_5_15: 8345838880937350762
+      sParallax_5_16: 4080911479168835630
+      sParallax_5_17: -2267687610396244837
+      sParallax_5_18: -1295649883004289324
+      sParallax_5_19: -7016661520528412477
+      sParallax_5_2: -3094683101844947360
+      sParallax_5_20: 3010054681568284765
+      sParallax_5_21: -6306720701003276450
+      sParallax_5_22: 1095338182072767348
+      sParallax_5_23: -3844511170904785984
+      sParallax_5_24: 1516026800111921494
+      sParallax_5_25: -2964211440801790190
+      sParallax_5_26: -8150893827136310208
+      sParallax_5_27: -7959968363779887906
+      sParallax_5_28: -9023132170787231482
+      sParallax_5_29: -565179278527452682
+      sParallax_5_3: 8363645522140040482
+      sParallax_5_30: -1814140556949522673
+      sParallax_5_31: -4097662079713912502
+      sParallax_5_32: 5330904852424185185
+      sParallax_5_33: -3120861142039316141
+      sParallax_5_34: -6869633256075744707
+      sParallax_5_35: -8371526630468784577
+      sParallax_5_36: 8093143820487641608
+      sParallax_5_37: -245224629866789415
+      sParallax_5_38: 2121181363922590280
+      sParallax_5_39: 2603270882572249440
+      sParallax_5_4: 6727785152116512908
+      sParallax_5_40: 827990638609399030
+      sParallax_5_5: 6329645933882855242
+      sParallax_5_6: -3019928780045308050
+      sParallax_5_7: 8477617925178671052
+      sParallax_5_8: 5688297657150393703
+      sParallax_5_9: 600671595151526489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
