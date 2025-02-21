@@ -1,10 +1,16 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    [SerializeField] public GameObject player;
+    [SerializeField] public GameObject Cam;
+
+    public float animDuration = 3f;
 
     [SerializeField] Transform parentTransform;
     [SerializeField] Vector3 relativePos;
@@ -30,7 +36,7 @@ public class GameManager : MonoBehaviour
             gates[i].onTouchGate += OnTouchGate;
         }
 
-        GameObject.FindGameObjectWithTag("Player").GetComponent<HealtController>().onDeath += OnPlayerDeath;
+        player.GetComponent<HealtController>().onDeath += OnPlayerDeath;
     }
 
     private void OnDisable()
@@ -40,7 +46,7 @@ public class GameManager : MonoBehaviour
             gates[i].onTouchGate -= OnTouchGate;
         }
 
-        GameObject.FindGameObjectWithTag("Player").GetComponent<HealtController>().onDeath -= OnPlayerDeath;
+        player.GetComponent<HealtController>().onDeath -= OnPlayerDeath;
 
     }
 
@@ -49,10 +55,11 @@ public class GameManager : MonoBehaviour
         //Restartenu
     }
 
-    void OnTouchGate(List<GameObject> prefabSpawners)
+    void OnTouchGate(List<GameObject> prefabSpawners, Transform nextStart)
     {
         AddSpawners(prefabSpawners);
-        ChangeLane();
+        if(nextStart != null)
+            ChangeLane(nextStart);
     }
 
     private void AddSpawners(List<GameObject> prefabSpawners)
@@ -77,10 +84,32 @@ public class GameManager : MonoBehaviour
         Destroy(prefabSpawner);
     }
 
-    private void ChangeLane()
+    private void ChangeLane(Transform nextStart)
     {
-        Debug.Log("Lane Changed");
+        LockPlayerAndCamera();
+        StartCoroutine(ChangeLane(animDuration, nextStart));
     }
+
+    IEnumerator ChangeLane(float duration, Transform nextStart)
+    {
+        while (duration > 0f)
+        {
+            player.transform.position = Vector2.Lerp(player.transform.position, nextStart.position, duration / Time.deltaTime);
+            duration -= Time.deltaTime;
+        }
+
+        player.transform.position = nextStart.position;
+        Cam.transform.position = new Vector3(nextStart.position.x, nextStart.position.y, Cam.transform.position.z);
+        LockPlayerAndCamera(false);
+        yield return null;
+    }
+
+    private void LockPlayerAndCamera(bool locked = true)
+    {
+        Cam.GetComponent<CameraController>().isLocked = locked;
+        player.GetComponent<PlayerController>().isLocked = locked;
+    }
+
 
     public void SetInstance() 
     {

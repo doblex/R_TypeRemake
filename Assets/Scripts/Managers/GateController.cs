@@ -5,7 +5,7 @@ public class GateController : MonoBehaviour
 {
     //Delegate
 
-    public delegate void OnTouchGate(List<GameObject> prefabSpawners);
+    public delegate void OnTouchGate(List<GameObject> prefabSpawners, Transform nextStart);
 
     //Event
     public OnTouchGate onTouchGate;
@@ -13,13 +13,14 @@ public class GateController : MonoBehaviour
     [SerializeField] List<GameObject> prefabSpawners;
 
     [SerializeField] GameObject background;
+    [SerializeField] Transform  nextStart;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("GateTrigger"))
         { 
-            onTouchGate?.Invoke(prefabSpawners);
+            onTouchGate?.Invoke(prefabSpawners, nextStart);
             if (background != null)
             { 
                 background.GetComponent<ParallaxController>().Activate();

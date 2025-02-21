@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [HideInInspector]public bool isLocked = false;
+
     [SerializeField] float speed = 5f;
     [SerializeField] float smoothness = 0.1f;
     [SerializeField] float leanAngle = 15f;
@@ -29,7 +31,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        MovePlayer();
+        if (!isLocked)
+            MovePlayer();
     }
 
 

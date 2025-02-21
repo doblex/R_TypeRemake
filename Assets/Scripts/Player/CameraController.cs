@@ -5,6 +5,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] Transform player;
     [SerializeField] float speed = 2f;
 
+    [HideInInspector] public bool isLocked = false;
+
 
     private void Start()
     {
@@ -14,7 +16,10 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position += Vector3.right * speed * Time.deltaTime;
+        if (!isLocked)
+        {   
+            transform.position += Vector3.right * speed * Time.deltaTime;
+        }
 
     }
 
