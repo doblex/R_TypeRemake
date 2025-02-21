@@ -12,10 +12,18 @@ public class GateController : MonoBehaviour
 
     [SerializeField] List<GameObject> prefabSpawners;
 
+    [SerializeField] GameObject background;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("GateTrigger"))
+        { 
             onTouchGate?.Invoke(prefabSpawners);
+            if (background != null)
+            { 
+                background.GetComponent<ParallaxController>().Activate();
+            }
+        }
     }
 }

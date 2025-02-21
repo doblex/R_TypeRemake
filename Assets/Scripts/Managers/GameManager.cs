@@ -6,14 +6,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [SerializeField] Transform cam;
+    [SerializeField] Transform parentTransform;
+    [SerializeField] Vector3 relativePos;
 
     List<GateController> gates;
 
-    List<GameObject> currentSpawnersPrefabs;
-    List<GameObject> nextSpawnersPrefabs;
-
-    private bool isFirstWave;
+    List<GameObject> currentSpawnersPrefabs = new List<GameObject>();
 
     private void OnValidate()
     {
@@ -31,6 +29,8 @@ public class GameManager : MonoBehaviour
         {
             gates[i].onTouchGate += OnTouchGate;
         }
+
+        GameObject.FindGameObjectWithTag("Player").GetComponent<HealtController>().onDeath += OnPlayerDeath;
     }
 
     private void OnDisable()
@@ -39,25 +39,32 @@ public class GameManager : MonoBehaviour
         {
             gates[i].onTouchGate -= OnTouchGate;
         }
+
+        GameObject.FindGameObjectWithTag("Player").GetComponent<HealtController>().onDeath -= OnPlayerDeath;
+
     }
 
-    private void Start()
-    {
-        isFirstWave = true;
+    void OnPlayerDeath(GameObject gameObject) 
+    { 
+        //Restartenu
     }
 
     void OnTouchGate(List<GameObject> prefabSpawners)
     {
-        nextSpawnersPrefabs = prefabSpawners;
-        if (isFirstWave)
+        AddSpawners(prefabSpawners);
+        ChangeLane();
+    }
+
+    private void AddSpawners(List<GameObject> prefabSpawners)
+    {
+        for (int i = 0; i < prefabSpawners.Count; i++)
         {
-            isFirstWave = false;
-            InstatiateNextSpawners();
-        }
-        else 
-        {
-            ChangeLane();
-            DisableCurrentSpawners();
+            GameObject clone = GameObject.Instantiate(prefabSpawners[i], parentTransform.position + relativePos, Quaternion.identity, parentTransform);
+            currentSpawnersPrefabs.Add(clone);
+
+            EnemySpawner enemySpawner = clone.GetComponent<EnemySpawner>();
+            enemySpawner.onSpawnEnded += OnSpawnEnded;
+
         }
     }
 
@@ -68,37 +75,11 @@ public class GameManager : MonoBehaviour
 
         currentSpawnersPrefabs.Remove(prefabSpawner);
         Destroy(prefabSpawner);
-
-        if (currentSpawnersPrefabs.Count > 0)
-            InstatiateNextSpawners();
-    }
-
-    private void InstatiateNextSpawners()
-    {
-        //Creo una nuova lista partendo dagli nuovi spawners
-        currentSpawnersPrefabs = new List<GameObject>(nextSpawnersPrefabs);
-        nextSpawnersPrefabs.Clear();
-
-        //subscribe per sapere quando terminano di spawnare
-        for (int i = 0; i < currentSpawnersPrefabs.Count; i++)
-        {
-            GameObject.Instantiate(currentSpawnersPrefabs[i], Vector3.zero, Quaternion.identity, cam);
-            EnemySpawner enemySpawner = currentSpawnersPrefabs[i].GetComponent<EnemySpawner>();
-            enemySpawner.onSpawnEnded += OnSpawnEnded;
-        }
-    }
-
-    private void DisableCurrentSpawners()
-    {
-        for (int i = 0; i < currentSpawnersPrefabs.Count; i++)
-        {
-            EnemySpawner enemySpawner = currentSpawnersPrefabs[i].GetComponent<EnemySpawner>();
-            enemySpawner.isDisabled = true;
-        }
     }
 
     private void ChangeLane()
     {
+        Debug.Log("Lane Changed");
     }
 
     public void SetInstance() 

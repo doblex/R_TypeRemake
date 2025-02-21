@@ -11,10 +11,9 @@ public class EnemySpawner : MonoBehaviour
     //Event
     public OnSpawnEnded onSpawnEnded;
 
-    public bool isDisabled { get; set; }
-
     [SerializeField] List<EnemyType> enemyTypes;
     [SerializeField] int maxEnemies = 10;
+    [SerializeField] int EnemiesLimit = 10;
     [SerializeField] float spawnInterval = 1.0f;
 
     List<SplineContainer> splines;
@@ -22,12 +21,12 @@ public class EnemySpawner : MonoBehaviour
 
     float spawnTimer;
     int enemiesSpawned;
+    int aliveEnemies = 0;
 
     private void Start()    
     {
         splines = new List<SplineContainer>(GetComponentsInChildren<SplineContainer>());
         enemyFactory = new EnemyFactory();
-        isDisabled = false;
     }
 
     private void Update()
@@ -40,7 +39,7 @@ public class EnemySpawner : MonoBehaviour
     {
         spawnTimer += Time.deltaTime;
 
-        if (!isDisabled && enemiesSpawned < maxEnemies && spawnTimer >= spawnInterval)
+        if (enemiesSpawned < maxEnemies && aliveEnemies < EnemiesLimit && spawnTimer >= spawnInterval)
         {
             SpawnEnemy();
             spawnTimer = 0;
@@ -49,7 +48,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void checkSpawnEnded() 
     {
-        if (isDisabled && enemiesSpawned <= 0)
+        if (enemiesSpawned >= maxEnemies && aliveEnemies <= 0)
         {
             onSpawnEnded?.Invoke(gameObject);
         }
@@ -60,9 +59,17 @@ public class EnemySpawner : MonoBehaviour
         EnemyType enemyType = enemyTypes[UnityEngine.Random.Range(0, enemyTypes.Count)];
         SplineContainer spline = splines[UnityEngine.Random.Range(0, splines.Count)];
 
-        enemyFactory.CreateEnemy(enemyType, spline);
+        GameObject clone = enemyFactory.CreateEnemy(enemyType, spline);
+        clone.GetComponent<HealtController>().onDeath += OnDeath;
 
-        //TODO: subscribe to OnDeath Event to decrease the enemiesSpawned
         enemiesSpawned++;
+        aliveEnemies++;
+    }
+
+    void OnDeath(GameObject gameObject)
+    { 
+        gameObject.GetComponent<HealtController>().onDeath -= OnDeath;
+        Destroy(gameObject);
+        aliveEnemies--;
     }
 }

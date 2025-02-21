@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e95bd708f4aaa4fb241cf6b1336753, type: 3}
+  m_Name: BulletSingle
+  m_EditorClassIdentifier: 
+  damage: 10
+  fireRate: 0.5
+  projectileSpeed: 10
+  projectileLifeTime: 4
+  projectilePrefab: {fileID: 6420197101488142779, guid: 7c4966f68b5ee004fac11e47c09cc60b, type: 3}

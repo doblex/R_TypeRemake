@@ -9,6 +9,13 @@ public class ParallaxController : MonoBehaviour {
     Transform mainCamera;
     Vector3 previousCameraPosition;
 
+    bool isActive = false;
+    public void Activate() 
+    { 
+        isActive = true; 
+        previousCameraPosition = mainCamera.position; 
+    }
+
     private void Awake()
     {
         mainCamera = Camera.main.transform;
@@ -21,6 +28,9 @@ public class ParallaxController : MonoBehaviour {
 
     private void Update()
     {
+        if (!isActive) return;
+
+
         for (int i = 0; i < backgrounds.Length; i++)
         {
             float parallax = (previousCameraPosition.x - mainCamera.position.x) * (i * multiplier);
@@ -33,4 +43,5 @@ public class ParallaxController : MonoBehaviour {
 
         previousCameraPosition = mainCamera.position;
     }
+
 }

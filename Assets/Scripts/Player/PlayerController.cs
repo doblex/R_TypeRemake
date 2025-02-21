@@ -27,21 +27,11 @@ public class PlayerController : MonoBehaviour
         input = GetComponent<InputReader>();
     }
 
-    private void FixedUpdate()
-    {
-        Attack();
-    }
-
     private void Update()
     {
         MovePlayer();
     }
 
-    private void Attack()
-    {
-        if (input.Attack)
-            Debug.Log("pew pew");
-    }
 
     private void MovePlayer()
     {

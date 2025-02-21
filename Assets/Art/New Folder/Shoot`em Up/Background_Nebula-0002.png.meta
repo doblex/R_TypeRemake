@@ -64,9 +64,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Nebula-0002_0: -1651646459300108979
+      Background_Nebula-0002_1: -918330644333400931
+      Background_Nebula-0002_2: 7052991752216645903
+      Background_Nebula-0002_3: 3060093597263146450
+      Background_Nebula-0002_4: 8442943222299817112
+      Background_Nebula-0002_5: 175613332829329664
+      Background_Nebula-0002_6: 2483172379086526041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

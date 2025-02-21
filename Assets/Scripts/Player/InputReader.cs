@@ -6,15 +6,15 @@ public class InputReader : MonoBehaviour {
     PlayerInput playerInput;
 
     InputAction moveAction;
-    InputAction AttackAction;
+    InputAction fireAction;
 
     public Vector2 Move => moveAction.ReadValue<Vector2>();
-    public bool Attack => AttackAction.IsPressed();
+    public bool Fire => fireAction.IsPressed();
 
     private void Start()
     {
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions["Move"];
-        AttackAction = playerInput.actions["Attack"];
+        fireAction = playerInput.actions["Attack"];
     }
 }
