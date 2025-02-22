@@ -28,6 +28,7 @@ public class TrackShot : WeaponStrategy
         Projectile projectileComponent = projectile.GetComponent<Projectile>();
 
         projectileComponent.SetSpeed(projectileSpeed);
+        projectileComponent.SetDamage(damage);
 
         Destroy(projectile, projectileLifeTime);
     }

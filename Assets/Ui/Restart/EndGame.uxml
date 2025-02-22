@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/Restart/Restart.uss?fileID=7433441132597879392&amp;guid=94befdf1a3a256443ba01076f1c271ef&amp;type=3#Restart" />
+    <Style src="project://database/Assets/Ui/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=a0296681f879e0548b0a2e08d8a59b75&amp;type=3#MainMenu" />
+    <engine:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.37); align-items: center;">
+        <engine:VisualElement style="flex-grow: 1; width: 500px; background-color: rgba(0, 0, 0, 0.59); flex-direction: row; height: 100%; align-items: center;">
+            <engine:VisualElement style="flex-grow: 1; height: 300px;">
+                <engine:Label text="You have failed&#10; the mission" name="Text" class="text" style="height: auto; font-size: 50px; -unity-text-align: middle-center; -unity-font-style: bold;" />
+                <engine:Button text="Retry" name="Retry" />
+                <engine:Button text="Quit to menu" name="Quit" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=a0296681f879e0548b0a2e08d8a59b75&amp;type=3#MainMenu" />
+    <engine:VisualElement class="screen" style="flex-grow: 1; scale: 1 1.1; background-image: url(&quot;project://database/Assets/Art/Background_space_game.jpg?fileID=2800000&amp;guid=96c66eebbd491ed4abaff5caba49473f&amp;type=3#Background_space_game&quot;);">
+        <engine:VisualElement class="menu" style="flex-grow: 1;">
+            <engine:VisualElement class="spacing" style="flex-grow: 1;" />
+            <engine:Button text="Play" name="Play" />
+            <engine:Button text="Exit&#10;" name="Exit" />
+            <engine:VisualElement class="spacing" style="flex-grow: 1;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

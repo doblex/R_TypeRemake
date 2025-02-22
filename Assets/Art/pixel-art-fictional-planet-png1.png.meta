@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8cf5f664046ac4744932e88a2b42c5be
+guid: 99ac4f068e5f84245abe7a628a1f1151
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3440542171897004434
-    second: blueships1_0
+      213: -8619103425084882564
+    second: pixel-art-fictional-planet-png1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blueships1_0
+      name: pixel-art-fictional-planet-png1_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 23
-        width: 902
-        height: 702
+        x: 75
+        y: 75
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6ef3599f1db040d0800000000000000
-      internalID: -3440542171897004434
+      spriteID: c718671d91bc26880800000000000000
+      internalID: -8619103425084882564
       vertices: []
       indices: 
       edges: []

@@ -11,7 +11,7 @@ public class GateController : MonoBehaviour
     public OnTouchGate onTouchGate;
 
     [SerializeField] List<GameObject> prefabSpawners;
-
+    [SerializeField] bool isBossGate;
     [SerializeField] GameObject background;
     [SerializeField] Transform  nextStart;
 
@@ -23,7 +23,7 @@ public class GateController : MonoBehaviour
             onTouchGate?.Invoke(prefabSpawners, nextStart);
             if (background != null)
             { 
-                background.GetComponent<ParallaxController>().Activate();
+                background.GetComponent<ParallaxController>().Activate(!isBossGate);
             }
         }
     }

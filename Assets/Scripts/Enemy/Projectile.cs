@@ -44,7 +44,7 @@ public class Projectile : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Enemy"))
         {
-            if (collision.gameObject.TryGetComponent<HealtController>(out HealtController HealtController))
+            if (collision.gameObject.TryGetComponent<HealthController>(out HealthController HealtController))
             {
                 HealtController.DoDamage(damage);
             }

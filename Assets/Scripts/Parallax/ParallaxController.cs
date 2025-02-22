@@ -10,10 +10,11 @@ public class ParallaxController : MonoBehaviour {
     Vector3 previousCameraPosition;
 
     bool isActive = false;
-    public void Activate() 
+    public void Activate(bool active = true) 
     { 
-        isActive = true; 
-        previousCameraPosition = mainCamera.position; 
+        isActive = active; 
+        if(active)
+            previousCameraPosition = mainCamera.position; 
     }
 
     private void Awake()

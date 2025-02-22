@@ -501,11 +501,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 145f5631916491b43bc5d2dd3586c215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDisabled: 0
   enemyTypes:
   - {fileID: 11400000, guid: b2340e0f1a194e8488c9465e8ac6f945, type: 2}
-  maxEnemies: 5
+  maxEnemies: 50
+  EnemiesLimit: 5
   spawnInterval: 1
+  isBossSpawner: 0
+  explosionPrefab: {fileID: 6777134732063125615, guid: e2892f160fc00bb448cee6d81633a18e, type: 3}
+  explosionDuration: 0.6
 --- !u!1 &7524592914371262539
 GameObject:
   m_ObjectHideFlags: 0
