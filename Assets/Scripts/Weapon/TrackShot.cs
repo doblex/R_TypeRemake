@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 [CreateAssetMenu(menuName = "TrackShot", fileName = "WeaponStrategy/TrackShot")]
 public class TrackShot : WeaponStrategy

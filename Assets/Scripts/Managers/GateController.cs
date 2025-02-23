@@ -24,7 +24,7 @@ public class GateController : MonoBehaviour
             if (background != null)
             { 
                 background.GetComponent<ParallaxController>().Activate(!isBossGate);
-                Camera.main.GetComponent<CameraController>().Lock(true);
+                Camera.main.GetComponent<CameraController>().Lock(isBossGate);
             }
         }
     }
