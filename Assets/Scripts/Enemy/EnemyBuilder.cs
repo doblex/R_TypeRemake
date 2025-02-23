@@ -74,4 +74,25 @@ public partial class EnemyBuilder
 
         return instace;
     }
+
+    public GameObject BuildPingPong()
+    {
+        GameObject instace = GameObject.Instantiate(enemyPrefab);
+
+        SplineAnimate splineAnimate = instace.GetOrAdd<SplineAnimate>();
+        splineAnimate.Container = spline;
+        splineAnimate.AnimationMethod = SplineAnimate.Method.Speed;
+        splineAnimate.ObjectUpAxis = SplineComponent.AlignAxis.ZAxis;
+        splineAnimate.ObjectForwardAxis = SplineComponent.AlignAxis.NegativeYAxis;
+        splineAnimate.MaxSpeed = speed;
+        splineAnimate.Loop = SplineAnimate.LoopMode.PingPong;
+
+        splineAnimate.Play();
+
+        instace.transform.position = spline.EvaluatePosition(UnityEngine.Random.Range(0f, 1f));
+
+
+
+        return instace;
+    }
 }

@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 103266583}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4669743, y: -0.10892598, z: 0.03147461}
+  m_LocalPosition: {x: 558.8, y: -0.10892598, z: 0.03147461}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1bfca9c08294443b135113558eb77d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponStrategy: {fileID: 11400000, guid: d4dd255a35bc909478c0ea0b02c1ed13, type: 2}
+  weaponStrategy: {fileID: 11400000, guid: 97131cf0d84881c4ab293c3808d69e9d, type: 2}
   firePoint: {fileID: 1289901799}
   layer: 6
 --- !u!114 &103266591
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38dda5b7e83d3a045b600ef12d36318c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHitPoints: 100
+  MaxHitPoints: 500
 --- !u!4 &174781181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8353819129346535477, guid: db2fc68c34c694a42b63bce4b74594f3, type: 3}
@@ -399,7 +399,7 @@ Transform:
   m_GameObject: {fileID: 197415028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.49, z: 0}
+  m_LocalPosition: {x: 49.7, y: -1.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -454,7 +454,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 200, y: 2.3702316}
+  m_Size: {x: 300, y: 2.3702316}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -474,8 +474,12 @@ PrefabInstance:
       objectReference: {fileID: 1016838779}
     - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: prefabSpawners.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
+      propertyPath: 'prefabSpawners.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4598543121362634026, guid: 6d06641e454b45542af5f3e2750546c1, type: 3}
     - target: {fileID: 7438708082696390876, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: m_Name
       value: Gate2
@@ -551,7 +555,7 @@ Transform:
   m_GameObject: {fileID: 277832828}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 49.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -606,7 +610,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 200, y: 5.84057}
+  m_Size: {x: 300, y: 5.84057}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -786,7 +790,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6, y: 0, z: -10}
+  m_LocalPosition: {x: 557.933, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -834,7 +838,7 @@ Transform:
   m_GameObject: {fileID: 533163168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.61, z: 0}
+  m_LocalPosition: {x: 49.5, y: -1.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -889,7 +893,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 200, y: 7.6307454}
+  m_Size: {x: 300, y: 7.6307454}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1257,7 +1261,7 @@ Transform:
   m_GameObject: {fileID: 755655929}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.51, y: -4.51, z: 0}
+  m_LocalPosition: {x: 50, y: -4.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1312,7 +1316,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 200, y: 1.12}
+  m_Size: {x: 300, y: 1.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1435,6 +1439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHpColor: {r: 0, g: 1, b: 0.004989147, a: 1}
   minHpColor: {r: 1, g: 0, b: 0, a: 1}
+  player: {fileID: 103266583}
 --- !u!1 &967111510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,8 +1547,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: prefabSpawners.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
+      propertyPath: 'prefabSpawners.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4598543121362634026, guid: c708cb62b515d6249a5b6485efb479b5, type: 3}
     - target: {fileID: 7438708082696390876, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: m_Name
       value: Gate4
@@ -1730,7 +1739,7 @@ Transform:
   m_GameObject: {fileID: 1165908655}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1785,7 +1794,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 200, y: 10}
+  m_Size: {x: 300, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2239,8 +2248,12 @@ PrefabInstance:
       objectReference: {fileID: 1822373971}
     - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: prefabSpawners.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3393961039892793819, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
+      propertyPath: 'prefabSpawners.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4598543121362634026, guid: d5265868adb0941419db4f8effd1ae6c, type: 3}
     - target: {fileID: 7438708082696390876, guid: 6c5887bd3f3f77c4bb886eff1610161f, type: 3}
       propertyPath: m_Name
       value: Gate3

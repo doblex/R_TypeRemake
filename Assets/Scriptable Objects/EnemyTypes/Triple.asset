@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0e95bd708f4aaa4fb241cf6b1336753, type: 3}
-  m_Name: EnemyBulletSingle
+  m_Script: {fileID: 11500000, guid: 426d45296e7bdf74eb9eb9d4a002406c, type: 3}
+  m_Name: Triple
   m_EditorClassIdentifier: 
-  damage: 10
-  fireRate: 3
-  projectileSpeed: 5
-  projectileLifeTime: 4
-  projectilePrefab: {fileID: 6420197101488142779, guid: 7c4966f68b5ee004fac11e47c09cc60b, type: 3}
+  enemyPrefab: {fileID: 537591302855029425, guid: 9a3ada7cdee02f04ea78622e1a8df6a6, type: 3}
+  weaponPrefab: {fileID: 0}
+  speed: 3

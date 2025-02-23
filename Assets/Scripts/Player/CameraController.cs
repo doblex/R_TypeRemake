@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
 
     [HideInInspector] public bool isLocked = false;
 
+    public void Lock(bool bLock) { isLocked = bLock; }
 
     private void Start()
     {

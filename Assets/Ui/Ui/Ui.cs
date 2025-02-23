@@ -6,8 +6,8 @@ public class Ui : MonoBehaviour
 {
     [SerializeField] Color maxHpColor;
     [SerializeField] Color minHpColor;
-    
-    GameObject player;
+
+    [SerializeField] GameObject player;
 
     UIDocument doc;
     VisualElement root;
@@ -31,7 +31,8 @@ public class Ui : MonoBehaviour
 
     private void OnDisable()
     {
-        player.GetComponent<HealthController>().onDamage -= OnPlayerDamage;
+        if (player != null)
+            player.GetComponent<HealthController>().onDamage -= OnPlayerDamage;
     }
 
     void OnPlayerDamage(float MaxHp, float currentHp)

@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-    [SerializeField] public GameObject player;
+    public GameObject player;
     [SerializeField] public GameObject Cam;
 
     public float animDuration = 3f;
@@ -67,7 +67,8 @@ public class GameManager : MonoBehaviour
         {
             gates[i].onTouchGate -= OnTouchGate;
         }
-        player.GetComponent<HealthController>().onDeath -= OnPlayerDeath;
+        if(player != null)
+            player.GetComponent<HealthController>().onDeath -= OnPlayerDeath;
     }
 
     private void Update()

@@ -11,6 +11,8 @@ public class EnemySpawner : MonoBehaviour
     //Event
     public OnSpawnEnded onSpawnEnded;
 
+    [SerializeField] SplineAnimate.LoopMode movementType;
+
     [SerializeField] List<EnemyType> enemyTypes;
     [SerializeField] int maxEnemies = 10;
     [SerializeField] int EnemiesLimit = 10;
@@ -63,7 +65,18 @@ public class EnemySpawner : MonoBehaviour
         EnemyType enemyType = enemyTypes[UnityEngine.Random.Range(0, enemyTypes.Count)];
         SplineContainer spline = splines[UnityEngine.Random.Range(0, splines.Count)];
 
-        GameObject clone = enemyFactory.CreateEnemy(enemyType, spline);
+        GameObject clone = null;
+
+        switch (movementType)
+        {
+            case SplineAnimate.LoopMode.Loop:
+                clone = enemyFactory.CreateEnemy(enemyType, spline);
+                break;
+            case SplineAnimate.LoopMode.PingPong:
+                clone = enemyFactory.CreateEnemyPingPong(enemyType, spline);
+                break;
+        }
+
         clone.GetComponent<HealthController>().onDeath += OnDeath;
 
         enemiesSpawned++;
