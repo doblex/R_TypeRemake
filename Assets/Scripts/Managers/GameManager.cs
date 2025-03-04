@@ -37,11 +37,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] UIDocument EndGame;
 
 
-    private void OnValidate()
-    {
-        gates = new List<GateController>(GameObject.FindObjectsByType<GateController>(FindObjectsSortMode.InstanceID));
-    }
-
     private void Awake()
     {
         SetInstance();
@@ -49,15 +44,19 @@ public class GameManager : MonoBehaviour
         pauseDoc.rootVisualElement.style.display = DisplayStyle.None;
         EndGame.rootVisualElement.style.display = DisplayStyle.None;
         isPaused = false;
+
+        gates = new List<GateController>(GameObject.FindObjectsByType<GateController>(FindObjectsSortMode.InstanceID));
     }
 
-    private void OnEnable()
+    private void Start()
     {
         for (int i = 0; i < gates.Count; i++)
         {
+            Debug.Log("Gate"+ i.ToString() + ": " + gates);
             gates[i].onTouchGate += OnTouchGate;
         }
 
+        Debug.Log("Player: " + player);
         player.GetComponent<HealthController>().onDeath += OnPlayerDeath;
     }
 

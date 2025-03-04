@@ -3,7 +3,6 @@
 [CreateAssetMenu(menuName = "TripleFrontShot", fileName = "WeaponStrategy/TripleFrontShot")]
 public class TripleFrontShot : WeaponStrategy
 {
-    [SerializeField] float spaceBetweenShots = 0.3f;
 
     public override void Fire(Transform firePoint, LayerMask layer)
     {
